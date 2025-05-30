@@ -1,0 +1,7 @@
+brazil-commerce-analysis-83df5e4f7604.json
+venv/
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+.env
+*.csv
