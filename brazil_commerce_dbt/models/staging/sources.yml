@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+  - name: raw
+    description: Raw e-commerce data from BigQuery
+    database: brazil-commerce-analysis
+    schema: brazil_commerce
+    tables:
+      - name: orders
+        description: Raw orders data
+      - name: customers
+        description: Raw customer data
+      - name: order_items
+        description: Raw order items data
+      - name: products
+        description: Raw products data
+      - name: order_payments
+        description: Raw payment data
+      - name: order_reviews
+        description: Raw review data
+      - name: product_category_name_translation
+        description: Product category translations
