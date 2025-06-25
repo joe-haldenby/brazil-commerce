@@ -22,10 +22,10 @@ The Olist Brazilian E-commerce Dataset contains:
 - Order reviews, payments, and logistics data
 
 ## Project Structure
-Brazil_commerce_analysis/
-├── notebooks/          
-├── models/             
-│   ├── staging/        
-│   └── marts/          
-├── requirements.txt    
-└── README.md           
+
+- **notebooks/** - Jupyter notebooks for analysis
+- **brazil_commerce_dbt/** - DBT models and transformations
+  - **models/staging/** - Raw data transformations
+  - **models/marts/** - Business logic & fact/dim tables
+- **requirements.txt** - Python dependencies
+- **README.md** - Project documentation

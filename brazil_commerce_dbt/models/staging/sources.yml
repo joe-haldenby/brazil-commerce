@@ -1,0 +1,26 @@
+version: 2
+
+sources:
+  - name: raw
+    description: Raw Brazilian e-commerce data from BigQuery
+    database: brazil-commerce-analysis
+    schema: Brazil_commerce
+    tables:
+      - name: orders
+        description: Order data with customer and timestamp info
+      - name: customers
+        description: Customer data with location
+      - name: order_items
+        description: Individual items within orders
+      - name: products
+        description: Product catalog data
+      - name: order_payments
+        description: Payment information for orders
+      - name: order_reviews
+        description: Customer reviews and ratings
+      - name: sellers
+        description: Seller information
+      - name: geolocation
+        description: Geographic location data
+      - name: category_translation
+        description: Product category translations
