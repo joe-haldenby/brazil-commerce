@@ -6,6 +6,7 @@ select
     oi.product_id,
     oi.seller_id,
     o.customer_id,
+     c.customer_unique_id, 
     
     -- Order context
     o.order_purchase_timestamp,
